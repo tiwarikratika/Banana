@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Yomogi&display=swap');
+
+
+:root{
+    --primary-color:#FCD34D;
+}
+
+textarea{
+    width: 90%;
+    height: 8vh;
+    display: block;
+    margin:1rem;
+    padding: 1rem;
+}
+
+#btn-translate{
+    width: 100px;
+    height: 40px;
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border:none;
+    text-align: center;
+    cursor:pointer;
+ 
+}
+
+#output{
+    border: 1px solid black;
+    height: 8vh;
+    width: 80%;
+    margin:1rem;
+    padding: 1rem;
+}
+
+nav{
+    background-color:var(--primary-color);
+    text-align: center;
+    /* height: 80px; */
+   
+}
+
+.heading{
+
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#txt-input{
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Yomogi', cursive;
+}
+/* 
+.img-bg{
+    opacity: 0.1;
+    height: 400px;
+    padding-top: 1rem;
+} */
+
+.content{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Yomogi', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+
+}
+.op{
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    font-weight: bolder;
+   
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 18px;
+
+    padding-top: 1rem;
+    font-family: 'Libre Baskerville', serif;
+
+}
